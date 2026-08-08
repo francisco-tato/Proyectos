@@ -1,0 +1,75 @@
+/* Estilos globales del cuerpo de la página */
+body {
+  margin: 0; /* Elimina el margen por defecto del navegador */
+  min-height: 100vh; /* Asegura altura completa de la ventana */
+  display: grid; /* Centra contenido con grid */
+  place-items: center; /* Centra horizontal y verticalmente */
+  font-family: Arial, sans-serif; /* Tipografía principal */
+  background: linear-gradient(135deg, #0f172a, #1e293b); /* Fondo degradado oscuro */
+  color: #f8fafc; /* Texto claro sobre fondo oscuro */
+}
+
+/* Contenedor principal centrado y con tarjeta */
+.centered {
+  text-align: center; /* Alinea el texto al centro */
+  max-width: 420px; /* Ancho máximo del contenido */
+  padding: 32px; /* Espacio interior del contenedor */
+  border: 1px solid rgba(148, 163, 184, 0.25); /* Borde sutil gris */
+  border-radius: 18px; /* Esquinas redondeadas */
+  background: rgba(15, 23, 42, 0.9); /* Fondo semitransparente */
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.35); /* Sombra suave debajo */
+}
+
+/* Estilo principal del título */
+h1 {
+  margin-top: 0; /* Elimina margen superior extra */
+  font-size: 32px; /* Tamaño del título en píxeles */
+}
+
+/* Estilos de párrafo para lectura cómoda */
+p {
+  margin: 16px 0 24px; /* Espacio superior e inferior */
+  line-height: 1.6; /* Altura de línea para mejor lectura */
+  color: #cbd5e1; /* Texto gris claro */
+}
+
+/* Estilo principal del enlace/botón */
+a {
+  display: inline-block; /* Permite padding como botón */
+  padding: 14px 22px; /* Espacio interior del botón */
+  border-radius: 999px; /* Botón con forma de píldora */
+  background: #38bdf8; /* Color de fondo azul claro */
+  color: #0f172a; /* Color del texto del botón */
+  text-decoration: none; /* Quita subrayado */
+  font-weight: 700; /* Texto en negrita */
+  transition: transform 0.2s ease, background 0.2s ease; /* Animación suave al pasar el cursor */
+}
+
+/* Estado hover y focus del botón */
+a:hover,
+button:focus-visible {
+  transform: translateY(-2px); /* Levanta ligeramente el botón */
+  background: #0ea5e9; /* Fondo más oscuro al pasar cursor */
+}
+
+/* Lista de proyectos en la página de bienvenida */
+.project-list {
+  margin: 22px auto 28px; /* Espaciado alrededor de la lista */
+  padding-left: 20px; /* Sangría para los elementos de lista */
+  text-align: left; /* Alinea la lista a la izquierda */
+  color: #cbd5e1; /* Color del texto de la lista */
+}
+
+/* Espaciado de cada elemento de la lista */
+.project-list li {
+  margin-bottom: 9px; /* Separación entre proyectos */
+  line-height: 1.7; /* Mejor legibilidad de la lista */
+}
+.copyright {
+    text-align: center;
+}
+
+.copyright img {
+    width: 20px;
+    vertical-align: middle;
+}
