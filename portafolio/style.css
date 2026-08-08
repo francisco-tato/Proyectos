@@ -9,4 +9,23 @@
 
 body {
     background-color: darkgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    width: 110px;
+    height: 25px;
+}
+
+a {
+ color: black;
+}
+
+.subtitulo {
+    font-style: italic;
+    color: ghostwhite;
+}
+
+img {
+    border-radius: 10px;
 }
