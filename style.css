@@ -73,3 +73,21 @@ button:focus-visible {
     width: 20px;
     vertical-align: middle;
 }
+
+/* Estilo para la sección de contacto */
+.contacto {
+  text-align: center;
+  padding: 24px 32px;
+  margin-top: 32px;
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+.contacto h2 {
+  margin: 0 0 20px 0;
+  font-size: 24px;
+}
+
+.contacto a {
+  display: inline-block;
+  margin: 0 12px 12px 12px;
+}
