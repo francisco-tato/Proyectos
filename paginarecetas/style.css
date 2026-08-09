@@ -1,16 +1,5 @@
 body {
-    margin: 0;
-    min-height: 100vh;
-    padding: 0 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient(135deg, #0f172a, #1e293b);
-    color: #f8fafc;
-}
-
-.boton-volver {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0;
 }
 
 .copyright {
@@ -20,24 +9,4 @@ body {
 .copyright img {
     width: 20px;
     vertical-align: middle;
-}
-
-.boton-volver {
-    text-align: center;
-    margin: 30px 0;
-}
-
-.boton-volver a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0ea5e9;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.boton-volver a:hover {
-    background-color: #0284c7;
 }
