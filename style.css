@@ -46,13 +46,6 @@ a {
   transition: transform 0.2s ease, background 0.2s ease; /* Animación suave al pasar el cursor */
 }
 
-/* Estado hover y focus del botón */
-a:hover,
-button:focus-visible {
-  transform: translateY(-2px); /* Levanta ligeramente el botón */
-  background: #0ea5e9; /* Fondo más oscuro al pasar cursor */
-}
-
 /* Lista de proyectos en la página de bienvenida */
 .project-list {
   margin: 22px auto 28px; /* Espaciado alrededor de la lista */
