@@ -1,36 +1,46 @@
+<!-- index.html -->
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Welcome to my portfolio</title>
-    <meta name="description" content="Welcome page with link to Francisco Tato's portfolio">
+    <meta name="description" content="Welcome page with link to my portfolio">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <main class="centered">
-      <h1>Welcome to my portfolio</h1>
-      <p>Explore my projects and discover my work in web development.</p>
-      <ul class="project-list">
-        <h3>Guided Projects</h3>
-        <li><em>Personal portfolio</em></li>
-        <li><em>Audio and video player</em></li>
-        <li><em>Event Hub Page</em></li>
-        <h3>Certification Projects</h3>
-        <li><em>HTML Certification</em> - In progress</li>
-      </ul>
-      <a href="guided-projects/portfolio/index.html">View my complete portfolio</a>
+    <main class="container">
+      <section class="hero">
+        <h1>Welcome to my portfolio</h1>
+        <h2>Explore my projects and discover my work in web development.</h2>
+      </section>
+
+      <div class="card">
+        <h2>Certification Projects</h2>
+        <ul>
+          <li><em>HTML Certification</em> - In progress</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Guided Projects</h2>
+        <ul>
+          <li><em>Personal portfolio</em></li>
+          <li><em>Audio and video player</em></li>
+          <li><em>Event Hub Page</em></li>
+        </ul>
+      </div>
+
+      <a href="guided-projects/portfolio/index.html" class="btn">View my full portfolio</a>
     </main>
-    <section class="contacto">
-      <h2>Contact</h2>
-      <a href="mailto:contact@frantato.com" target="_blank">Email</a><br>
-      <a href="https://github.com/francisco-tato/" target="_blank">Github</a>
-    </section>
-    <p class="copyright">
+
+    <footer class="copyright">
+      <div class="footer-content">
         <img src="images/Copyright.png" alt="Logo FT">
-        © 2026 Francisco Tato - Beta
-    </p>
+        <p>&copy; 2026 Francisco Tato - Beta</p>
+      </div>
+    </footer>
   </body>
 </html>
