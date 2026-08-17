@@ -174,3 +174,8 @@ header nav a {
 .video-paulo {
   max-width: 350px;
 }
+
+/* spider man review */
+#spidermanimage {
+  border-radius: 20px;
+}
